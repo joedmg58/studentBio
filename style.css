@@ -1,12 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #efeee7;
+    font-family: "Georgia", 'Times New Roman', Times, serif;
+    color: #333333;
+    line-height: 150%;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
 #head {
     background-color: black;
     color: white;
     text-align: center;
+    padding: 10px;
 }
 
-#content {
+.flex-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    width: 1024px;
+    margin: 0 auto; /*center in body, 0 is margin top and bottom, auto is left right*/
+}
 
+#about {
+    width: 65%;
+    padding-top: 40px;
+}
+
+#contact {
+    width: 35%;
+}
+
+a {
+    color: red;
+}
+
+#pic {
+    margin-right: 20px;
+    width: 200px;
 }
